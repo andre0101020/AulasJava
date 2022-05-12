@@ -7,12 +7,6 @@ public class Aviao {
 	int pessoas;
 	boolean funcionado;
 	
-	void status() {
-		System.out.println("Nome do avião: "+nome);
-		System.out.println("Cor do avião: "+cor);
-		System.out.println("Quantidade de pessoas no avião: "+pessoas);
-		System.out.println("o avião esta vonado: "+funcionado);
-	}
 	
 	void voando() {
 		this.funcionado =true;
@@ -23,6 +17,13 @@ public class Aviao {
 	void quebrado() {
 		this.funcionado =false;
 		
+	}
+	
+	void status() {
+		System.out.println("Nome do avião: "+nome);
+		System.out.println("Cor do avião: "+cor);
+		System.out.println("Quantidade de pessoas no avião: "+pessoas);
+		System.out.println("o avião esta vonado: "+funcionado);
 	}
 	
 	
