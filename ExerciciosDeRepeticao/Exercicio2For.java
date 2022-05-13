@@ -11,7 +11,7 @@ public class Exercicio2For {
 		
 		for(int x=0;x<10;x++)
 		{
-		 System.out.println("Escreva os numeros para saber quantos sao pares e quantos sao impar: ");
+		 System.out.println("Escreva 10 numeros para saber quantos sao pares e quantos sao impar: ");
 		 n=ler.nextInt();
 		 if (n%2==0)
 		 np=np+1;
